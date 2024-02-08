@@ -1,0 +1,9 @@
+{
+    "build": {
+        "qtros": {
+            "cmake-args": [
+                "-GCodeBlocks - Unix Makefiles"
+            ]
+        }
+    }
+}

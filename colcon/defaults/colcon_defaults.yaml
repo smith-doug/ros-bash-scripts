@@ -1,0 +1,10 @@
+{
+    "build": {
+        "symlink-install": true,
+        "event-handlers": ["console_cohesion+"],
+        "mixin": ["ccache", "compile-commands", "rel-with-deb-info", "lld", "qtros"],
+        # "mixin": ["ccache", "compile-commands", "debug", "lld", "qtros"],
+        # "mixin": ["ccache", "compile-commands", "release", "lld", "qtros"],
+        "executor": "parallel"        
+    }
+}
